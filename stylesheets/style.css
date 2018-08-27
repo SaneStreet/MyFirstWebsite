@@ -5,9 +5,20 @@
 h1, h2{
     display:inline-block;
     color:rgb(255,165,0);
+    text-transform: uppercase;
+    font-family:"Autobus";
 }
 p{
     color:rgb(255,255,255);
+    font-family:"TimeBurnerNormal";
+}
+@font-face{
+    font-family:Autobus;
+    src: url(Autobus-Bold.ttf);
+}
+@font-face{
+    font-family:TimeBurnerNormal;
+    src: url(timeburnernormal.ttf)
 }
 
 body{
@@ -36,6 +47,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    font-family:"Autobus";
 }
 
 nav ul li a:hover{
