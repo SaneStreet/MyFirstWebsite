@@ -1,0 +1,9 @@
+.pictures{
+    height: 350px;
+    width: 450px;
+}
+h1, h2{
+    display:inline-block;
+    color: blueviolet;
+    background-color: goldenrod;
+}
